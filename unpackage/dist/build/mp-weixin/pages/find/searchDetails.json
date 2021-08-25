@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "搜索详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "good-list": "/components/good/goodList",
+    "search": "/pages/find/compoents/search"
+  }
+}

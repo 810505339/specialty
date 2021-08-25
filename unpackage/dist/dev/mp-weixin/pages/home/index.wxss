@@ -1,0 +1,32 @@
+
+page {
+  position: relative;
+  height: 100vh;
+}
+
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.home-wrap.data-v-71e217db {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.btn-wrap.data-v-71e217db {
+  margin: 80rpx 0;
+  text-align: center;
+}
+.btn.data-v-71e217db {
+  font-size: 28rpx;
+  font-weight: bold;
+  display: inline-block;
+}
+.btn.data-v-71e217db button {
+  width: 300rpx;
+}
+

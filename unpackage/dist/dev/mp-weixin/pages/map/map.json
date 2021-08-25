@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "附近酒店",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "good-list": "/components/good/goodList"
+  }
+}

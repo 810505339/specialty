@@ -1,0 +1,1 @@
+<good-list bind:api="__e" bind:itemClick="__e" vue-id="33bb9006-1" data-ref="goodList" data-event-opts="{{[['^api',[['api']]],['^itemClick',[['itemClick']]]]}}" class="data-v-543fe3ae vue-ref" bind:__l="__l"></good-list>

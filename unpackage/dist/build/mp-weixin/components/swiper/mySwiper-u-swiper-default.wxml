@@ -1,0 +1,1 @@
+<view class="swiper-image-wrapper data-v-561067c4"><u-image vue-id="1da903f6-2" width="100%" height="380rpx" src="{{elem.img_url}}" class="data-v-561067c4" bind:__l="__l"></u-image><view class="swiper-context data-v-561067c4"><view class="title data-v-561067c4">{{elem.title}}</view><view class="des data-v-561067c4">{{elem.brief}}</view></view></view>

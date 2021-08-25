@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.data-v-d04f6b22 .u-tabs {
+  border-bottom: 1px solid #DFDFDF;
+  padding: 16rpx;
+  border-radius: 10rpx 10rpx 0 0;
+}
+.des-list .des-item.data-v-d04f6b22 {
+  border-bottom: 1px solid #DFDFDF;
+  border-left: 1px solid #DFDFDF;
+  margin-left: 27rpx;
+  position: relative;
+  padding: 32rpx 40rpx;
+}
+.des-list .des-item.data-v-d04f6b22:before {
+  content: '';
+  position: absolute;
+  left: -10rpx;
+  top: 40rpx;
+  width: 20rpx;
+  height: 20rpx;
+  background: #999999;
+  border-radius: 50%;
+}
+.des-list .des-item .time.data-v-d04f6b22 {
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #999999;
+}
+.des-list .des-item .des-c-wrap.data-v-d04f6b22 {
+  padding-right: 250rpx;
+  position: relative;
+}
+.des-list .des-item .des-c-wrap .des-img.data-v-d04f6b22 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.des-list .des-item .des-c-wrap .des-img.data-v-d04f6b22 .u-image__image {
+  border-radius: 16rpx !important;
+}
+.des-list .des-item .des-b-wrap.data-v-d04f6b22 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.des-list .des-item .title.data-v-d04f6b22 {
+  font-size: 36rpx;
+  font-weight: bold;
+  padding-top: 32rpx;
+  padding-bottom: 20rpx;
+}
+.des-list .des-item .des.data-v-d04f6b22 {
+  font-size: 24rpx;
+  color: #333333;
+  font-weight: 400;
+  margin-bottom: 30rpx;
+}
+.des-list .des-item .text-wrap.data-v-d04f6b22 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #999999;
+}
+.des-list .des-item .text-wrap .icon.data-v-d04f6b22 {
+  margin: 0 8rpx;
+}
+.des-list .des-item .chat.data-v-d04f6b22 {
+  margin-left: 80rpx;
+}
+

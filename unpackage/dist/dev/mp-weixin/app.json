@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/find/find",
+    "pages/home/index",
+    "pages/login/login",
+    "pages/center/index",
+    "pages/find/searchView",
+    "pages/find/searchDetails",
+    "pages/find/route",
+    "pages/find/hotel",
+    "pages/find/strategy",
+    "pages/find/customized",
+    "pages/center/collect",
+    "pages/center/customer",
+    "pages/detail/customized",
+    "pages/center/record",
+    "pages/center/service",
+    "pages/detail/hotel",
+    "pages/detail/route",
+    "pages/detail/strategy",
+    "pages/detail/comments",
+    "pages/map/map",
+    "pages/find/destinationList",
+    "pages/vip/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uView",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#FED300",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/find/find",
+        "iconPath": "static/vanBar/fa_xian.png",
+        "selectedIconPath": "static/vanBar/fa_xian_active.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/vanBar/tui_jian.png",
+        "selectedIconPath": "static/vanBar/tui_jian_active.png",
+        "text": "咨询"
+      },
+      {
+        "pagePath": "pages/center/index",
+        "iconPath": "static/vanBar/user.png",
+        "selectedIconPath": "static/vanBar/user_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取您的地理位置"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

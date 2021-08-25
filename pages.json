@@ -1,0 +1,214 @@
+{
+  "easycom": {
+    "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/find/find",
+      "style": {
+        "navigationBarTitleText": "发现",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "咨询",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/center/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/find/searchView",
+      "style": {
+        "navigationBarTitleText": "搜索",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/find/searchDetails",
+      "style": {
+        "navigationBarTitleText": "搜索详情",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/find/route",
+      "style": {
+        "navigationBarTitleText": "路线",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/find/hotel",
+      "style": {
+        "navigationBarTitleText": "名宿/酒店",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/find/strategy",
+      "style": {
+        "navigationBarTitleText": "攻略",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white"
+
+      }
+    },
+    {
+      "path": "pages/find/customized",
+      "style": {
+        "navigationBarTitleText": "私人制定",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/center/collect",
+      "style": {
+        "navigationBarTitleText": "我的收藏",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/center/customer",
+      "style": {
+        "navigationBarTitleText": "我的定制",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/detail/customized",
+      "style": {
+        "navigationBarTitleText": "制定详情",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/center/record",
+      "style": {
+        "navigationBarTitleText": "浏览记录",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/center/service",
+      "style": {
+        "navigationBarTitleText": "在线客服",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/detail/hotel",
+      "style": {
+        "navigationBarTitleText": "酒店详情",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/detail/route",
+      "style": {
+        "navigationBarTitleText": "旅游线路详情",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/detail/strategy",
+      "style": {
+        "navigationBarTitleText": "攻略详情",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/detail/comments",
+      "style": {
+        "navigationBarTitleText": "评论详情",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/map/map",
+      "style": {
+        "navigationBarTitleText": "附近酒店",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/find/destinationList",
+      "style": {
+        "navigationBarTitleText": "推荐目的",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/vip/index",
+      "style": {
+        "navigationBarTitleText": "开通VIP",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white"
+      }
+    }
+  ],
+
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uView",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#FED300",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/find/find",
+        "iconPath": "static/vanBar/fa_xian.png",
+        "selectedIconPath": "static/vanBar/fa_xian_active.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/vanBar/tui_jian.png",
+        "selectedIconPath": "static/vanBar/tui_jian_active.png",
+        "text": "咨询"
+      },
+      {
+        "pagePath": "pages/center/index",
+        "iconPath": "static/vanBar/user.png",
+        "selectedIconPath": "static/vanBar/user_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "condition": {
+    //模式配置，仅开发期间生效
+    "current": 0,
+    //当前激活的模式(list 的索引项)
+    "list": [
+      {
+        "name": "",
+        //模式名称
+        "path": "",
+        //启动页面，必选
+        "query": ""
+        //启动参数，在页面的onLoad函数里面得到
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.comment-list .comment-item.data-v-6f665cee {
+  padding: 28rpx 0 28rpx 120rpx;
+  position: relative;
+  border-bottom: 1rpx solid #FBFBFB;
+}
+.comment-list .comment-title.data-v-6f665cee {
+  font-size: 28rpx;
+  color: #44495E;
+}
+.comment-list .comment-time.data-v-6f665cee {
+  font-size: 24rpx;
+  color: #999999;
+  padding-bottom: 16rpx;
+  padding-top: 2rpx;
+}
+.comment-list .comment-des.data-v-6f665cee {
+  font-size: 24rpx;
+  color: #333333;
+}
+.comment-list .comment-icon.data-v-6f665cee {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
