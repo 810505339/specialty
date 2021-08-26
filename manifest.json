@@ -62,14 +62,15 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "wx50e745ba756d25f3",
+        "appid" : "wx5ecff8b4d3fb5c30",
         "setting" : {
-            "urlCheck" : true
+            "urlCheck" : true,
+            "postcss" : false
         },
         "usingComponents" : true,
-        "permission": {
-            "scope.userLocation": {
-                "desc": "获取您的地理位置"
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "获取您的地理位置"
             }
         }
     },

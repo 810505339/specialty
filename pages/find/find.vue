@@ -84,6 +84,7 @@ export default {
       uni.navigateTo({url: `/pages/find/destinationList?id=${item.id}`})
     },
     async getSwiperList(){
+		console.log("aaa")
      const {data}= await bannerApi()
       this.swiperList=data
     },

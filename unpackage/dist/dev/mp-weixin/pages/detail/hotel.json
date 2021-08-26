@@ -2,7 +2,6 @@
   "navigationBarTitleText": "酒店详情",
   "enablePullDownRefresh": false,
   "usingComponents": {
-    "hotel-u-swiper-default": "/pages/detail/hotel-u-swiper-default",
     "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
     "u-image": "/uview-ui/components/u-image/u-image",
     "u-icon": "/uview-ui/components/u-icon/u-icon",

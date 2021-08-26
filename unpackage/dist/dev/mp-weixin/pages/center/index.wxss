@@ -5,6 +5,7 @@
  */
 .header-wrapper.data-v-0f3320de {
   position: relative;
+  height: 230rpx;
 }
 .header-wrapper .header-bg.data-v-0f3320de {
   position: relative;
@@ -20,8 +21,13 @@
 .header-wrapper .header-context.data-v-0f3320de {
   position: absolute;
   z-index: 20;
-  text-align: center;
-  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  left: 32rpx;
   right: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -32,22 +38,23 @@
   margin: auto;
 }
 .header-wrapper .header-context .header-name.data-v-0f3320de {
-  margin-top: 10rpx;
+  margin-left: 16rpx;
   font-size: 32rpx;
-  font-weight: bold;
+  font-weight: 800;
+  color: #333333;
 }
 .header-wrapper .header-context .header-type.data-v-0f3320de {
   font-size: 24rpx;
   font-weight: 400;
 }
-.nav-list-wrapper.data-v-0f3320de {
-  padding-top: 160rpx;
-}
 .nav-list-wrapper.data-v-0f3320de .u-cell {
   color: #333333;
+  height: 124rpx;
+  font-size: 28rpx !important;
+  font-weight: 400 !important;
 }
 .nav-list-wrapper.data-v-0f3320de .u-cell__right-icon-wrap {
-  color: #000000;
+  color: #707070;
 }
 .nav-list-wrapper .btn.data-v-0f3320de {
   position: absolute;

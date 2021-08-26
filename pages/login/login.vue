@@ -17,7 +17,7 @@ export default {
   name: "login",
   methods: {
     async login() {
-      store.dispatch('login')
+     store.dispatch('login')
      const {data}=await store.dispatch('auth')
       if(data.user_info.mobile)
       {

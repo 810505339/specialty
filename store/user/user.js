@@ -54,10 +54,10 @@ export default {
                 wx.getUserProfile({
                     desc: "获取你的昵称、头像、地区及性别",
                     success:(res)=>{
-
                         const {iv,encryptedData}=res
 
                         loginApi({code:state.code,iv,encrypdata:encryptedData}).then(res => {
+							console.log("获取用户信息的",res)
                             commit('setToken', res.data.token)
                             commit('setUser',res.data.user_info)
                             commit('setSession_key',res.data?.session_key)

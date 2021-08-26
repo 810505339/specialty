@@ -6,7 +6,7 @@ module.exports = {
 			disableHostCheck: true,
 			proxy:{
 				"/api":{
-					"target": "http://116.62.234.233:801",
+					"target": "http://yapi.cqlink.club/mock/160",
 					"changeOrigin": true,
 					"secure": false,
 					"pathRewrite": {

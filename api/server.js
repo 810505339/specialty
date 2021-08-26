@@ -5,7 +5,7 @@ import getPlatform from '../utlis/config'
 
 
 const instance = ajax.create({
-    baseURL:  `${getPlatform()==='H5'?'/api':'http://116.62.234.233:801'}/api`,
+    baseURL:  `${getPlatform()==='H5'?'/api':'http://yapi.cqlink.club/mock/160'}/api`,
     timeout: 6000,
     isLogin: true,
     header:{

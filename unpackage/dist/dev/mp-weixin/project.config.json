@@ -4,10 +4,10 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
     "enhance": false,
-    "postcss": true,
+    "postcss": false,
     "preloadBackgroundData": false,
     "minified": true,
     "newFeature": false,
@@ -40,7 +40,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "",
-  "appid": "wx50e745ba756d25f3",
+  "appid": "wx5ecff8b4d3fb5c30",
   "projectname": "uView-demo",
   "condition": {
     "search": {

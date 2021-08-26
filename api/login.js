@@ -1,10 +1,10 @@
 import instance from "./server";
 
 const loginApi=(data)=>instance({
-    method:'post',
+    method:'get',
     isLogin: false,
     data,
-    url:'/auth/auth_login/'
+    url:'/api/consumer_login'
 })
 
 const bindMobile=(data)=>instance.post('/auth/bind_mobile/',data)

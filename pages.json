@@ -28,7 +28,8 @@
     {
       "path": "pages/center/index",
       "style": {
-        "navigationBarTitleText": "我的"
+        "navigationBarTitleText": "我的",
+		"navigationStyle":"custom"
       }
     },
     {
@@ -171,29 +172,35 @@
     "backgroundColor": "#F8F8F8"
   },
   "tabBar": {
-    "color": "#999999",
-    "selectedColor": "#FED300",
+    "color": "#C1C1C1",
+    "selectedColor": "#41AE37",
     "borderStyle": "white",
     "backgroundColor": "#ffffff",
     "list": [
       {
         "pagePath": "pages/find/find",
-        "iconPath": "static/vanBar/fa_xian.png",
-        "selectedIconPath": "static/vanBar/fa_xian_active.png",
-        "text": "发现"
+        "iconPath": "static/vanBar/index.png",
+        "selectedIconPath": "static/vanBar/index_active.png",
+        "text": "首页"
       },
       {
         "pagePath": "pages/home/index",
-        "iconPath": "static/vanBar/tui_jian.png",
-        "selectedIconPath": "static/vanBar/tui_jian_active.png",
-        "text": "咨询"
+        "iconPath": "static/vanBar/shop.png",
+        "selectedIconPath": "static/vanBar/shop_active.png",
+        "text": "积分商城"
       },
       {
         "pagePath": "pages/center/index",
-        "iconPath": "static/vanBar/user.png",
-        "selectedIconPath": "static/vanBar/user_active.png",
-        "text": "我的"
-      }
+        "iconPath": "static/vanBar/cart.png",
+        "selectedIconPath": "static/vanBar/cart_acitve.png",
+        "text": "购物车"
+      },
+	  {
+	    "pagePath": "pages/center/index",
+	    "iconPath": "static/vanBar/user.png",
+	    "selectedIconPath": "static/vanBar/user_active.png",
+	    "text": "我的"
+	  }
     ]
   },
   "condition": {

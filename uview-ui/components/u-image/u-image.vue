@@ -27,7 +27,7 @@
 			v-if="showError && isError && !loading"
 			class="u-image__error"
 			:style="{
-				borderRadius: shape == 'circle' ? '50%' : $u.addUnit(borderRadius)
+				borderRadius: shape == 'circle' ? '50%' : $u.addUnit(borderRadius),border:border
 			}"
 		>
 			<slot v-if="$slots.error" name="error" />
@@ -80,6 +80,10 @@ export default {
 		width: {
 			type: [String, Number],
 			default: '100%'
+		},
+		border:{
+			type: String,
+			default:'0'
 		},
 		// 高度，单位任意
 		height: {
