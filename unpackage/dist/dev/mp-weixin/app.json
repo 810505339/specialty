@@ -67,5 +67,6 @@
       "desc": "获取您的地理位置"
     }
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
 }
