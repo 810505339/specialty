@@ -44,7 +44,7 @@
 				}"
 			>
 				<u-icon name="plus" class="u-add-btn" size="40"></u-icon>
-				<view class="u-add-tips">{{ uploadText }}</view>
+				<!-- <view class="u-add-tips">{{ uploadText }}</view> -->
 			</view>
 		</view>
 	</view>

@@ -1,1 +1,0 @@
-<view class="swiper-wrapper data-v-3ac35f10"><u-swiper generic:scoped-slots-default="mySwiper-u-swiper-default" data-vue-generic="scoped" vue-id="1da903f6-1" list="{{swiperList}}" haveSlot="{{true}}" class="data-v-3ac35f10" bind:__l="__l" vue-slots="{{['default']}}"></u-swiper></view>

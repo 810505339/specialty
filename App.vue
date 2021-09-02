@@ -37,12 +37,12 @@ page {
   overflow: hidden;
   word-break: break-all;
 }
-swiper{
-  height:380rpx!important; ;
-}
-uni-swiper{
-  height:380rpx!important; ;
-}
+// swiper{
+//   height:380rpx!important; ;
+// }
+// uni-swiper{
+//   height:380rpx!important; ;
+// }
 
 view {
   box-sizing: content-box;

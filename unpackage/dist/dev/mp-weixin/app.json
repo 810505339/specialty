@@ -1,34 +1,42 @@
 {
   "pages": [
-    "pages/find/find",
-    "pages/home/index",
-    "pages/login/login",
+    "pages/home/home",
     "pages/center/index",
-    "pages/find/searchView",
-    "pages/find/searchDetails",
-    "pages/find/route",
-    "pages/find/hotel",
-    "pages/find/strategy",
-    "pages/find/customized",
-    "pages/center/collect",
-    "pages/center/customer",
-    "pages/detail/customized",
-    "pages/center/record",
-    "pages/center/service",
-    "pages/detail/hotel",
-    "pages/detail/route",
-    "pages/detail/strategy",
-    "pages/detail/comments",
-    "pages/map/map",
-    "pages/find/destinationList",
-    "pages/vip/index"
+    "pages/shop/shop",
+    "pages/cart/cart",
+    "pages/center/information",
+    "pages/center/active_results",
+    "pages/center/qualifications/qualifications",
+    "pages/center/integral",
+    "pages/center/address/address",
+    "pages/center/my_order",
+    "pages/center/address/editor",
+    "pages/login/login",
+    "pages/center/order/order",
+    "pages/center/order/confirm_receipt",
+    "pages/center/qualifications/buy",
+    "pages/center/qualifications/confirm_buy",
+    "pages/center/order/detail",
+    "pages/center/order/log_list",
+    "pages/center/order/log_detail",
+    "pages/center/order/return_refund",
+    "pages/center/order/refund_complate",
+    "pages/center/order/refund_detail",
+    "pages/center/order/fill_number",
+    "pages/home/classification",
+    "pages/home/select_store",
+    "pages/home/search_result",
+    "pages/luck/luck_active",
+    "pages/shop/shop_detail",
+    "pages/cart/sumbit_order"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uView",
     "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
   },
   "tabBar": {
     "color": "#C1C1C1",
@@ -37,19 +45,19 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/find/find",
+        "pagePath": "pages/home/home",
         "iconPath": "static/vanBar/index.png",
         "selectedIconPath": "static/vanBar/index_active.png",
         "text": "首页"
       },
       {
-        "pagePath": "pages/home/index",
+        "pagePath": "pages/shop/shop",
         "iconPath": "static/vanBar/shop.png",
         "selectedIconPath": "static/vanBar/shop_active.png",
         "text": "积分商城"
       },
       {
-        "pagePath": "pages/center/index",
+        "pagePath": "pages/cart/cart",
         "iconPath": "static/vanBar/cart.png",
         "selectedIconPath": "static/vanBar/cart_acitve.png",
         "text": "购物车"
@@ -67,6 +75,5 @@
       "desc": "获取您的地理位置"
     }
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }

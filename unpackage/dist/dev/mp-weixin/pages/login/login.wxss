@@ -1,21 +1,113 @@
-
-page{
-  background: #FFFFFF;
-}
-
 @charset "UTF-8";
 /**
  * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
  * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
  */
-.login-wrap.data-v-b237504c {
-  padding-top: 50rpx;
+.logo.data-v-b237504c {
+  width: 160rpx;
+  height: 160rpx;
   background: #FFFFFF;
+  border-radius: 50%;
+  font-size: 60rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #39CD75;
+  margin: auto;
+  margin-top: 230rpx;
 }
-.login-wrap .btn-wrap.data-v-b237504c {
-  padding: 50rpx;
+.logo .text.data-v-b237504c {
+  padding: 32rpx 20rpx 44rpx 20rpx;
 }
-.login-wrap .login-btn.data-v-b237504c button {
-  margin: 50rpx 0;
+.app_name.data-v-b237504c {
+  padding-top: 64rpx;
+  font-size: 48rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.slogan.data-v-b237504c {
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  width: 100%;
+  text-align: center;
+  padding-top: 16rpx;
+}
+.login_btn.data-v-b237504c {
+  margin-top: 64rpx;
+  width: 688rpx;
+  height: 80rpx;
+  background: #FFFFFF;
+  border-radius: 40rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #41AE37;
+}
+.editor_cell.data-v-b237504c {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  bottom: 16rpx;
+  width: 686rpx;
+  margin-top: 32rpx;
+  margin-left: 32rpx;
+}
+.editor_cell .radio_group.data-v-b237504c {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  padding-left: 16rpx;
+}
+.editor_cell .radio_group .radio.data-v-b237504c {
+  border-radius: 50%;
+  border: #FFFFFF 2rpx solid;
+  width: 10rpx;
+  height: 10rpx;
+  padding: 12rpx;
+  position: relative;
+}
+.editor_cell .radio_group .select.data-v-b237504c::after {
+  content: '';
+  position: absolute;
+  background: #FFFFFF;
+  width: 13rpx;
+  height: 13rpx;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.editor_cell .radio_group .text.data-v-b237504c {
+  padding-left: 8rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.foot.data-v-b237504c {
+  margin-top: 164rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  width: 100%;
+  text-align: center;
 }
 

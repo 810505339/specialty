@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "评论详情",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "u-image": "/uview-ui/components/u-image/u-image",
-    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore"
-  }
-}

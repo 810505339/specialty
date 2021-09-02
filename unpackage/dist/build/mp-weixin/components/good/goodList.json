@@ -1,7 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
-    "good-item": "/components/good/goodItem"
-  }
-}

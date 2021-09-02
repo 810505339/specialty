@@ -13,8 +13,62 @@
     "miniprogram": {
       "list": [
         {
-          "name": "我的",
-          "pathName": "pages/center/index",
+          "name": "物流详情",
+          "pathName": "pages/center/order/log_detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "订单列表",
+          "pathName": "pages/center/order/order",
+          "query": "type=1",
+          "scene": null
+        },
+        {
+          "name": "退货退款",
+          "pathName": "pages/center/order/return_refund",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "退款详情",
+          "pathName": "pages/center/order/refund_detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "积分商城",
+          "pathName": "pages/shop/shop",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "门店选择",
+          "pathName": "pages/home/select_store",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "抽奖活动",
+          "pathName": "pages/luck/luck_active",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "商品详情",
+          "pathName": "pages/shop/shop_detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "确认订单",
+          "pathName": "pages/cart/sumbit_order",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "购物车",
+          "pathName": "pages/cart/cart",
           "query": "",
           "scene": null
         }

@@ -337,7 +337,7 @@
 
 	.u-icon-plus,
 	.u-icon-minus {
-		width: 60rpx;
+		width: 50rpx;
 		@include vue-flex;
 		justify-content: center;
 		align-items: center;

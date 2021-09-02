@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "浏览记录",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "good-list": "/components/good/goodList"
-  }
-}

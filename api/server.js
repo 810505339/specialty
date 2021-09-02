@@ -5,7 +5,7 @@ import getPlatform from '../utlis/config'
 
 
 const instance = ajax.create({
-    baseURL:  `${getPlatform()==='H5'?'/api':'http://yapi.cqlink.club/mock/160'}/api`,
+    baseURL:  `${getPlatform()==='H5'?'/api':'http://yapi.cqlink.club/mock/160'}`,
     timeout: 6000,
     isLogin: true,
     header:{
@@ -32,7 +32,7 @@ instance.interceptors.response.use((response) => {
 
     const data=response.data
     const {code,msg}=data
-
+	console.log("数据",data)
 
 
     if(code===100)

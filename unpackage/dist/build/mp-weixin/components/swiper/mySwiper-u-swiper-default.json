@@ -1,8 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "mySwiper-u-swiper-default": "/components/swiper/mySwiper-u-swiper-default",
-    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
-    "u-image": "/uview-ui/components/u-image/u-image"
-  }
-}

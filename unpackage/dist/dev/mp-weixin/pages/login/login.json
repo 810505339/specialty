@@ -3,6 +3,6 @@
   "enablePullDownRefresh": false,
   "usingComponents": {
     "u-image": "/uview-ui/components/u-image/u-image",
-    "u-button": "/uview-ui/components/u-button/u-button"
+    "uni-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar"
   }
 }
