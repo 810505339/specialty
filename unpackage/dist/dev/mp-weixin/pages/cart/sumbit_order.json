@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "确认订单",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-number-box": "/uview-ui/components/u-number-box/u-number-box",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "uni-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar"
+  }
+}

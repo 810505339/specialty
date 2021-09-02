@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "退款成功",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "uni-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar"
+  }
+}

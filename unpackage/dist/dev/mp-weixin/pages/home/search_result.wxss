@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.search.data-v-d45520c6 {
+  height: 100rpx;
+  width: 100%;
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.search .search_box.data-v-d45520c6 {
+  width: 686rpx;
+  background: #F9F9F9;
+  border-radius: 8rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  height: 72rpx;
+}
+.search .search_box .left.data-v-d45520c6 {
+  height: 40rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  padding: 0 16rpx;
+  border-right: 2rpx solid #EEEEEE;
+}
+.search .search_box .right.data-v-d45520c6 {
+  width: 100%;
+  padding-right: 16rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.shop_group.data-v-d45520c6 {
+  padding: 0 32rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.shop_group .shop_item.data-v-d45520c6 {
+  margin-bottom: 26rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  border-radius: 8rpx;
+  overflow: hidden;
+}
+.shop_group .shop_item .shop_info.data-v-d45520c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding: 16rpx;
+  position: relative;
+  background: #FFFFFF;
+}
+.shop_group .shop_item .shop_info .name.data-v-d45520c6 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+  color: #333333;
+}
+.shop_group .shop_item .shop_info .num.data-v-d45520c6 {
+  padding-top: 8rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.shop_group .shop_item .shop_info .price.data-v-d45520c6 {
+  padding-top: 16rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FF0000;
+}
+.shop_group .shop_item .shop_info .cart.data-v-d45520c6 {
+  position: absolute;
+  bottom: 16rpx;
+  right: 16rpx;
+}
+

@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.card.data-v-719c168e {
+  margin: auto;
+  width: 686rpx;
+  background: #FFFFFF;
+  border-radius: 8rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.card .card_top.data-v-719c168e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding-right: 16rpx;
+}
+.card .card_top .label.data-v-719c168e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+  color: #FFFFFF;
+  width: 176rpx;
+  height: 56rpx;
+  background: #41AE37;
+  border-radius: 8rpx 0px 20rpx 0px;
+}
+.card .card_top .time.data-v-719c168e {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.card .card_middle.data-v-719c168e {
+  padding: 16rpx 38rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+}
+.card .card_btm.data-v-719c168e {
+  padding: 0 16rpx 16rpx 16rpx;
+  text-align: right;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+}
+

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.code.data-v-3c66c1ac {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin-top: 128rpx;
+}
+.tip.data-v-3c66c1ac {
+  width: 100%;
+  text-align: center;
+  margin-top: 128rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #CCCCCC;
+}
+.btn.data-v-3c66c1ac {
+  margin: auto;
+  margin-top: 200rpx;
+  width: 686rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  height: 80rpx;
+  background: -webkit-linear-gradient(left, #50C845 0%, #7FD269 49%, #50C845 100%);
+  background: linear-gradient(90deg, #50C845 0%, #7FD269 49%, #50C845 100%);
+  border-radius: 44rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+

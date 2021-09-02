@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.shop_info.data-v-993ed7cc {
+  padding: 32rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  background: #FFFFFF;
+}
+.shop_info .name.data-v-993ed7cc {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+  color: #333333;
+}
+.shop_info .num.data-v-993ed7cc {
+  padding-top: 16rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.shop_info .price.data-v-993ed7cc {
+  padding-top: 20rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FF0000;
+}
+.shop_info .price.data-v-993ed7cc::before {
+  content: '￥';
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+}
+.shop_info .intergarl.data-v-993ed7cc {
+  margin-top: 16rpx;
+  width: -webkit-max-content;
+  width: max-content;
+  height: 40rpx;
+  padding: 0 8rpx;
+  border: 2rpx solid #41AE37;
+  border-radius: 4rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #41AE37;
+}
+.shop_info .num_box.data-v-993ed7cc {
+  position: absolute;
+  bottom: 32rpx;
+  right: 32rpx;
+}
+.log.data-v-993ed7cc {
+  margin-top: 16rpx;
+  background: #FFFFFF;
+  border-radius: 8rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 32rpx;
+}
+.log .label.data-v-993ed7cc {
+  width: 84rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.log .right.data-v-993ed7cc {
+  padding-left: 32rpx;
+  width: 100%;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.log .icon.data-v-993ed7cc {
+  margin-left: 8rpx;
+}
+.bottm_btn.data-v-993ed7cc {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100rpx;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12rpx rgba(0, 0, 0, 0.16);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.bottm_btn .btn_left.data-v-993ed7cc {
+  width: 342rpx;
+  height: 80rpx;
+  background: -webkit-linear-gradient(right, #FEBC55 0%, #FF9602 100%);
+  background: linear-gradient(270deg, #FEBC55 0%, #FF9602 100%);
+  border-radius: 200rpx 0px 0px 200rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.bottm_btn .btn_right.data-v-993ed7cc {
+  width: 342rpx;
+  height: 80rpx;
+  background: -webkit-linear-gradient(left, #ACDB8B 0%, #41AE37 100%);
+  background: linear-gradient(90deg, #ACDB8B 0%, #41AE37 100%);
+  border-radius: 0px 200rpx 200rpx 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.bottm_btn .btn.data-v-993ed7cc {
+  width: 686rpx;
+  height: 80rpx;
+  background: -webkit-linear-gradient(left, #50C845 0%, #7FD269 49%, #50C845 100%);
+  background: linear-gradient(90deg, #50C845 0%, #7FD269 49%, #50C845 100%);
+  border-radius: 44rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.title.data-v-993ed7cc {
+  background: #FFFFFF;
+  margin-top: 16rpx;
+  padding: 32rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+  color: #333333;
+}
+.content.data-v-993ed7cc {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  line-height: 22px;
+  color: #333333;
+}
+

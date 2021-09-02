@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.intergral_group.data-v-401fc086 {
+  width: 686rpx;
+  height: 340rpx;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4rpx rgba(0, 0, 0, 0.16);
+  border-radius: 8rpx;
+  margin: auto;
+  margin-top: 32rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.intergral_group .available.data-v-401fc086 {
+  height: 186rpx;
+  width: 100%;
+  border-bottom: 2rpx #F5F5F5 solid;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.intergral_group .count.data-v-401fc086 {
+  width: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  position: relative;
+}
+.intergral_group .count.data-v-401fc086::after {
+  content: '';
+  position: absolute;
+  width: 2rpx;
+  height: 124rpx;
+  background: #F5F5F5;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.intergral_group .used.data-v-401fc086 {
+  width: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.intergral_group .title.data-v-401fc086 {
+  padding-top: 32rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.intergral_group .number.data-v-401fc086 {
+  padding-bottom: 32rpx;
+  font-size: 48rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+  color: #333333;
+}
+.intergral_group .number.data-v-401fc086::after {
+  content: '分';
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+}
+.row.data-v-401fc086 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  height: 152rpx;
+  width: 100%;
+}
+.list_title.data-v-401fc086 {
+  padding: 32rpx 0 32rpx 32rpx;
+  border-bottom: 2rpx solid #F9F9F9;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+  color: #333333;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.list_title .icon.data-v-401fc086 {
+  width: 8rpx;
+  height: 36rpx;
+  background: -webkit-linear-gradient(top, #ACDB8B 0%, #50C845 100%);
+  background: linear-gradient(180deg, #ACDB8B 0%, #50C845 100%);
+  border-radius: 4rpx;
+  margin-right: 16rpx;
+}
+.list_group.data-v-401fc086 {
+  margin: 0 32rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 42rpx;
+}
+.list_group .list-item.data-v-401fc086 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 32rpx 0;
+  border-bottom: 2rpx solid #F9F9F9;
+}
+.list_group .list-item .item_left.data-v-401fc086 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+}
+.list_group .list-item .item_left .name.data-v-401fc086 {
+  color: #333333;
+}
+.list_group .list-item .item_left .time.data-v-401fc086 {
+  padding-top: 8rpx;
+  font-weight: 500;
+  color: #999999;
+}
+.list_group .list-item .item-right.data-v-401fc086 {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+  color: #333333;
+}
+

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "填写快递单号",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "uni-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar"
+  }
+}

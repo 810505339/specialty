@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "物流详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-time-line": "/uview-ui/components/u-time-line/u-time-line",
+    "u-time-line-item": "/uview-ui/components/u-time-line-item/u-time-line-item",
+    "uni-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar"
+  }
+}

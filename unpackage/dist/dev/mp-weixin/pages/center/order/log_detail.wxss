@@ -1,0 +1,206 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.status_box.data-v-a87d18c4 {
+  margin: auto;
+  margin-top: 32rpx;
+  width: 654rpx;
+  background: #FFFFFF;
+  border-radius: 8rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 32rpx 16rpx;
+}
+.box_top.data-v-a87d18c4 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  line-height: 20px;
+  color: #333333;
+}
+.shop_box.data-v-a87d18c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  margin-top: 16rpx;
+  padding: 32rpx 16rpx;
+  width: 654rpx;
+  background: #FFFFFF;
+  opacity: 1;
+  border-radius: 8rpx;
+}
+.shop_box .top.data-v-a87d18c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.shop_box .top .text.data-v-a87d18c4 {
+  margin-left: 16rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.shop_box .middle.data-v-a87d18c4 {
+  padding: 32rpx 0 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.shop_box .middle .middle_left.data-v-a87d18c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+.shop_box .middle .middle_left .text_box.data-v-a87d18c4 {
+  padding-left: 16rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.shop_box .middle .middle_left .text_box .name.data-v-a87d18c4 {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+  color: #333333;
+}
+.shop_box .middle .middle_left .text_box .weight.data-v-a87d18c4 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+  color: #333333;
+}
+.shop_box .middle .middle_left .text_box .price.data-v-a87d18c4 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.shop_box .middle .middle_right.data-v-a87d18c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.shop_box .middle .middle_right .intergarl.data-v-a87d18c4 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #41AE37;
+}
+.shop_box .middle .middle_right .num.data-v-a87d18c4 {
+  text-align: right;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.log.data-v-a87d18c4 {
+  margin: auto;
+  margin-top: 32rpx;
+  width: 654rpx;
+  background: #FFFFFF;
+  border-radius: 8rpx;
+  padding: 32rpx 16rpx;
+}
+.log .label.data-v-a87d18c4 {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+  color: #333333;
+  padding-bottom: 32rpx;
+}
+.log .time_line_box.data-v-a87d18c4 {
+  padding: 0 16rpx;
+}
+.log .time_line_box .u-order-title.data-v-a87d18c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.log .time_line_box .status.data-v-a87d18c4 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 600;
+  color: #41AE37;
+}
+.log .time_line_box .time.data-v-a87d18c4 {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  line-height: 17px;
+  color: #41AE37;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-left: 16rpx;
+}
+.log .time_line_box .u-order-desc.data-v-a87d18c4 {
+  padding-top: 8rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular;
+  color: #6D7278;
+}
+.log .time_line_box .none:not(:first-child) .status.data-v-a87d18c4 {
+  color: #CCCCCC !important;
+}
+.log .time_line_box .none:not(:first-child) .time.data-v-a87d18c4 {
+  color: #CCCCCC !important;
+}
+.log .time_line_box .none:not(:first-child) .u-order-desc.data-v-a87d18c4 {
+  color: #CCCCCC !important;
+}
+.log .time_line_box .none.data-v-a87d18c4:last-child .u-time-axis::before {
+  border: 0;
+}
+.log .time_line_box .none.data-v-a87d18c4 .u-time-axis {
+  padding-bottom: 32rpx;
+}
+.log .time_line_box.data-v-a87d18c4 .u-time-axis-item {
+  margin-bottom: 0;
+}
+.log .icon.data-v-a87d18c4 {
+  width: 22rpx;
+  height: 22rpx;
+  background: #D8D8D8;
+  border-radius: 50%;
+}
+

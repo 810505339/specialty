@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "搜索结果",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "uni-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar"
+  }
+}
